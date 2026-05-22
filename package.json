@@ -4,7 +4,7 @@
   "description": "Tachometer for Claude Code — context %, tokens in/out, current directory",
   "type": "module",
   "bin": {
-    "claude-tach": "./src/cli.ts"
+    "claude-tach": "./claude-tach"
   },
   "scripts": {
     "start": "bun src/cli.ts",
