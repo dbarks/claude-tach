@@ -1,6 +1,6 @@
 {
   "name": "claude-tach",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Tachometer for Claude Code — context %, tokens in/out, current directory",
   "type": "module",
   "bin": {
@@ -10,6 +10,13 @@
     "start": "bun src/cli.ts",
     "status": "bun src/statusbar.ts"
   },
-  "keywords": ["claude", "claude-code", "token", "context", "tachometer", "ai"],
+  "keywords": [
+    "claude",
+    "claude-code",
+    "token",
+    "context",
+    "tachometer",
+    "ai"
+  ],
   "license": "MIT"
 }
